@@ -1,8 +1,0 @@
-# vmonitor/prometheus.yml
-global:
-  scrape_interval: 5s
-
-scrape_configs:
-  - job_name: "vrising"
-    static_configs:
-      - targets: ["host.docker.internal:9878"] # No Windows/Mac, use host.docker.internal
