@@ -2,6 +2,6 @@ global:
   scrape_interval: 5s
 
 scrape_configs:
-  - job_name: "vrising"
+  - job_name: "aplicacao"
     static_configs:
-      - targets: ["${VRISING_IP}:9878"]
+      - targets: ["${IP}:9878"]

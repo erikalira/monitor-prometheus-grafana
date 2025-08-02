@@ -21,7 +21,7 @@ sudo chown -R 472:472 grafana_data
 ### Rodar
 ```
 chmod +x start.sh
-VRISING_IP=SEU_IP ./start.sh
+IP=SEU_IP ./start.sh
 ```
 
 ### Acesse nos navegadores

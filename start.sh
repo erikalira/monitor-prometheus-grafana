@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Verifica se VRISING_IP foi definido
-if [ -z "$VRISING_IP" ]; then
-  echo "Erro: variável de ambiente VRISING_IP não está definida."
-  echo "Use assim: VRISING_IP=192.168.10.11 ./start.sh"
+# Verifica se IP foi definido
+if [ -z "$IP" ]; then
+  echo "Erro: variável de ambiente IP não está definida."
+  echo "Use assim: IP=192.168.10.11 ./start.sh"
   exit 1
 fi
 
-echo "IP definido: $VRISING_IP"
+echo "IP definido: $IP"
 
 # Gerar prometheus.yml usando envsubst
 SCRIPT_DIR=$(dirname "$(realpath "$0")")

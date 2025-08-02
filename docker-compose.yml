@@ -1,6 +1,4 @@
 # vmonitor/docker-compose.yml
-version: '3'
-
 services:
   prometheus:
     image: prom/prometheus
